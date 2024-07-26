@@ -1,11 +1,5 @@
-import "./App.css";
-
-function App() {
-  return (
-    <>
-      <h1 className="text-5xl text-red-400">Hello</h1>
-    </>
-  );
-}
+const App = () => {
+  return <h1 className="text-8xl font-bold text-red-400">Hello</h1>;
+};
 
 export default App;
